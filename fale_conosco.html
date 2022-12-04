@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="galeria/favicon.ico" type="image/x-icon">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="css/formulario.css" midia="screen">
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu">&#9776;</label>
+        <nav class="menu">     
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="galeria.html" rel="next">Galeria Oceânica</a></li>
+            <li><a href="nossosoceanos.html">Nossos Oceanos</a>
+                <ul>
+                    <li><a href="antartico.html">Antártico</a></li>
+                    <li><a href="artico.html">Ártico</a></li>
+                    <li><a href="atlantico.html">Atlântico</a></li>
+                    <li><a href="indico.html">Índico</a></li>
+                    <li><a href="pacifico.html">Pacífico</a></li>
+                </ul>
+            </li>
+            <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        </ul>
+        </nav>
+        
+        <main>
+        <h1>Converse com a Gente!!</h1>
+        <br>
+        <h2>Em que podemos te ajudar?</h2>
+        <br>
+        <p>Aqui é um espaço para você interagir com a gente.
+           Esse espaço é pra você nos dar sua opinião, sugestão, elogios ou aquilo que tiver interesse em compartilhar.
+        </p>
+        <br>
+        <p>Vamos interagir, preecha seus dados para nos conhecer.</p>
+        </main>
+        <main>
+        <form>
+            <fieldset class="grupo">
+                <div class="campo">
+                <legend><b>Cadastro</b></legend><br>
+                <label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" placeholder="Nome Completo" size="40">
+                <br><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha">
+            </div><br><br>
+             <div class="campo">
+                <label for="email">Email</label><input type="email" name="email" id="email" size="40">
+            </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="idData">Data:</label>
+                <input type="date" name="data" id="idData">
+            </div>
+
+            <div class="campo">
+                <label for="idPlanetas">Quantos oceanos há em nosso planeta?:</label>
+                <input type="number" name="oceanos" id="idOceano" min="0" max="100">
+            </div>
+
+            <div class="campo">
+                <label>Que tipo de água encontramos nos oceanos?</label>
+                <label>
+                    <input type="radio" name="agua" value="Salgada">Salgada
+                </label>
+                <label>
+                    <input type="radio" name="agua" value="Doce">Doce
+                </label>
+                <label>
+                    <input type="radio" name="agua" value="Misturada">Misturada
+                </label>
+            </div>
+            
+            <div class="campo">
+                <label for="planetas">Qual oceano você conhece?</label>
+                <select id="planetas">
+                    <option selected disabled value="">Qual deles...?</option>
+                    <option>Atlântico</option>
+                    <option>Pacífico</option>
+                    <option>Ártico</option>
+                    <option>Antártico</option>
+                    <option>Índico</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <legend><b>Conhecimentos sobre a diversidade dos oceanos</b></legend><br>
+                    <label>O que podemos encontrar neles?</label><br>
+                    <input type="checkbox" id="oceano" name="oceano" value="Baleia">
+                    <label for="oceano">Baleia</label>
+                    <input type="checkbox" id="oceano2" name="oceano2" value="Hipopótamo">
+                    <label for="oceano2">Hipopótamo</label>
+                    <input type="checkbox" id="oceano3" name="oceano3" value="Tubarão">
+                    <label for="oceano3">Tubarão</label>
+                    <input type="checkbox" id="oceano4" name="oceano4" value="Leão">
+                    <label for="oceano4">Leão</label>
+                    <input type="checkbox" id="oceano5" name="oceano5" value="Peixe Palhaço">
+                    <label for="oceano5">Peixe Palhaço</label>
+                    <input type="checkbox" id="oceano6" name="oceano6" value="Dragonite">
+                    <label for="oceano6">Dragonite</label>
+                    <input type="checkbox" id="oceano7" name="oceano7" value="Lixo">
+                    <label for="oceano7">Lixo</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label>Qual seu nível de satisfação com nosso site?</label>
+                <input type="range" id="nota" min="1" max="10" value="1">
+            </div>
+
+            <div class="campo">
+                <br>
+                <label for="experiencia">Nos conte sua primeira experiência quando conheceu algum oceano</label>
+                <textarea row="6" style="width: 30em" id="experiencia" name="experiencia"></textarea>
+            </div>
+            <br>
+            <button class="botao" type="submit" onsubmit="">Feito</button>
+
+            </fieldset>
+        </form>
+        </main>
+        <br>
+        <div class="imagem">
+        <picture>
+            <source media="(max-width: 750px)" srcset="galeria/faleconosco.pequeno.jpg">
+            <source media="(max-width: 1050px)" srcset="galeria/faleconosco.medio.jpg">
+            <img src="galeria/faleconosco.grande.jpg" alt="imagem do fale conosco através de qualquer rede social.">
+        </picture>
+        </div>
+        <a href="#">&#9650;</a>
+        </main>
+        <br><br>
+    </body>
+</html>

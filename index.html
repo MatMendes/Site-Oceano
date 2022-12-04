@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="galeria/favicon.ico" type="image/x-icon">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu">&#9776;</label>
+        <nav class="menu">     
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="galeria.html" rel="next">Galeria Oceânica</a></li>
+            <li><a href="nossosoceanos.html">Nossos Oceanos</a>
+                <ul>
+                    <li><a href="antartico.html">Antártico</a></li>
+                    <li><a href="artico.html">Ártico</a></li>
+                    <li><a href="atlantico.html">Atlântico</a></li>
+                    <li><a href="indico.html">Índico</a></li>
+                    <li><a href="pacifico.html">Pacífico</a></li>
+                </ul>
+            </li>
+            <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        </ul>
+        </nav>
+        
+        <script>
+            function maioridade(){
+                var entrar = window.prompt("Informe a senha para acessar!");
+                if(entrar == "oceano"){
+                    window.alert("Você Não Se Afogou! Bem Vindo Marujo!")
+                }
+                else{
+                    window.location.href="https://st2.depositphotos.com/1006542/8648/i/450/depositphotos_86484088-stock-photo-drowning-hand-in-stormy-sea.jpg"
+                }
+            
+            }
+            maioridade()
+        </script>
+
+        <main>
+        <h1>NOSSOS OCEANOS</h1>
+
+        <p>Que tal ouvir o som das águas enquanto navega por aqui?!!</p>
+        <br>
+        <audio controls preload="metadata"loop>
+            <source src="midia/som do oceano.mp3" type="audio/mpeg">
+            <source src="midia/som-do-oceano-ogg.ogg" type="audio/ogg">
+            <source src="midia/som-do-oceano-wav.wav" type="audio/wav">
+            <p>Erro...audio não compatível!</p> 
+        </audio>
+        <br><br>
+        <h2>Um pouco sobre nossos oceanos.</h2>
+        
+        <p>Os oceanos podem ser definidos como imensos corpos de água salgada que ocupam as depressões da superfície da crosta terrestre em nosso planeta. Eles constituem mais de 97% de toda a água que existe no globo, sendo essenciais para o equilíbrio entre a vida na terra e a vida marinha.
+        Nos oceanos estão as grandes correntes marítimas, que auxiliam na formação de precipitação devido à evaporação das águas em todo o mundo, além de contribuírem para as dinâmicas climáticas nos diferentes lugares da Terra, o que pode ser assustador, como a formação de tufões e furacões.</p>
+
+        <p>Ao compararmos os oceanos em relação ao seu tamanho, podemos dizer que essas massas de água ocupam uma área de 331 milhões de km² da superfície terrestre. Sua profundidade média é de, aproximadamente, 3600 m, com um volume de água de 1,3 bilhão de quilômetros cúbicos, atingindo uma temperatura média de 4 ºC.
+        A profundidade média oceânica é bem maior que a altitude média continental. Na Terra, a média de elevação do relevo é de 840 m de altura. Nas áreas litorâneas, estima-se que estejam 40% da população mundial.
+        Seu tamanho colossal deve-se a sua origem. Muitos autores explicam o oceano no singular, como uma espécie de única entidade com pequenas diferenças de acordo com as variações das latitudes. Entretanto, essa afirmação não é consensual entre os oceanógrafos. Para fins didáticos, dividiram o oceano em cinco grandes oceanos. Vejamos um pouco da origem fantástica desses imensos blocos de água.
+        </p>
+
+        <p>A origem do oceano remete à origem do planeta Terra. É necessário entendermos essas origens para entendermos os oceanos, pois muito do que ainda não sabemos sobre as profundidades marinhas pode ser explicado na origem do mundo. Estudos revelam que sabemos mais sobre o Sistema Solar do que sobre a vida marinha na Terra e suas peculiaridades. Devido à evolução tecnológica, hoje podemos responder várias perguntas em relação à formação dessas massas de água com a ajuda do conhecimento científico.
+        A teoria do Big Bang, hoje amplamente aceita pela comunidade científica, ajuda-nos a compreender a origem do oceano como quando houve a grande explosão de poeiras e gases, gerando galáxias, planetas, estrelas, entre outros. No entanto, o oceano não surge a partir dessa explosão, ou seja, ele é uma criação oriunda de processos naturais que aconteceram no planeta. No início, a temperatura na Terra era extremante alta, impossibilitando a existência e o desenvolvimento da vida. Todo esse vapor estava envolto no planeta, e não havia acúmulo de água líquida. Ao longo dos anos, as nuvens (vapor d´água) resfriaram-se, e chuvas caíam na superfície, transformando-se em nuvens devido à alta temperatura.</p>
+        <br>
+        <h3>Para conhecer um pouquinho mais, veja o video abaixo.</h3>
+
+        <div class="video1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Px6Fe5l23_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <br>
+        <h3>Aqui você pode ver todos os oceanos e sua lozalização no mapa.</h3>
+        <div class="imagem">
+        <picture>
+            <source media="(max-width: 750px)" srcset="galeria/todos_oceanos_pequeno.jpg">
+            <source media="(max-width: 1050px)" srcset="galeria/todos_oceanos_medio.jpg">
+            <img src="galeria/todos_oceanos_grande.jpg" alt="Os cinco oceanos no mapa.">
+        </picture>
+        </div>
+        <a href="#">&#9650;</a>
+        </main>
+    </body>
+</html>

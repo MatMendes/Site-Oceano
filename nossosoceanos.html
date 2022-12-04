@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="galeria/favicon.ico" type="image/x-icon">
+    <title>Nossos Oceanos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: #daa520;
+        }
+    </style>
+    </head>
+    <body>       
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu">&#9776;</label>
+        <nav class="menu">     
+        <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="galeria.html" rel="next">Galeria Oceânica</a></li>
+            <li><a href="nossosoceanos.html">Nossos Oceanos</a>
+                <ul>
+                    <li><a href="antartico.html">Antártico</a></li>
+                    <li><a href="artico.html">Ártico</a></li>
+                    <li><a href="atlantico.html">Atlântico</a></li>
+                    <li><a href="indico.html">Índico</a></li>
+                    <li><a href="pacifico.html">Pacífico</a></li>
+                </ul>
+            </li>
+            <li><a href="fale_conosco.html">Fale Conosco</a></li>
+        </ul>
+        </nav>
+        
+        <main>
+        <h2>Lista de nossos oceanos e localização</h2>
+
+        <p>Aqui encontra algumas informações, para mais detalhes, visite as próximas páginas.</p>
+
+        <div class="list">
+        <ol type="I">
+            <li>Oceano Pacífico
+            <ul type="disc">
+                <li>Oeste da América</li>
+                <li>Sul da Antártida</li>
+                <li>Oceania</li>
+                <li>Leste Asíatico</li>
+            </ul>
+            </li>
+            <li>Oceano Atlântico
+            <ul type="disc">
+                <li>Continente americano</li>
+                <li>Continente Europeu</li>
+                <li>Continente Africano</li>
+            </ul>
+            </li>
+            <li>Oceano Índico
+            <ul type="disc">
+                <li>Leste do continente africano</li>
+                <li>Sul da Ásia</li>
+                <li>Oeste da Oceania</li>
+                <li>Parte da Antártida</li>
+            </ul>
+            </li>
+            <li>Oceano Glacial Antártico
+            <ul type="disc">
+                <li>Exremo sul do planeta</li>
+            </ul>
+            </li>
+            <li>Oceano Glacial Ártico
+            <ul type="disc">
+                <li>Polo norte do planeta</li>
+            </ul>
+            </li>
+        </ol>
+        </div>
+
+        <p style="color: #ff0000;">Veja nossos oceanos no vídeo abaixo:</p>
+        <br>
+        <div class="video">
+        <video controls width="350">
+            <source src="midia/oceano-mp4.mp4" type="video/mp4">
+            <source src="midia/oceano-ogv.ogv" type="video/ogv">
+            <source src="midia/oceano-webm.webm" type="video/webm">
+            <source src="midia/oceano-m4v.m4v" type="video/m4v">
+            <p>Erro: video não suportado!</p>
+        </video>
+        </div>
+        <br>
+        <div class="imagem">
+        <picture>
+            <source media="(max-width: 750px)" srcset="galeria/todos_oceanos_pequeno.jpg">
+            <source media="(max-width: 1050px)" srcset="galeria/todos_oceanos_medio.jpg">
+            <img src="galeria/todos_oceanos_grande.jpg" alt="Todos os oceanos e sua localização no mapa">
+        </picture>
+        </div>
+        <a href="#">&#9650;</a>
+        </main>
+    </body>
+</html>        
