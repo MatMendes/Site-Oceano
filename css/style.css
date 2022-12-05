@@ -7,28 +7,33 @@
     padding: 0px;
 }
 
+.parag{
+    margin: auto;
+    
+}
+
 .vazio{
     height: 50px;
 }
 
 body {
-    background-color: #1ba6cc;
+    background-color: #1BA6CC;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main{
     margin: 70px;
-    border: 2px solid #071e22;
+    border: 2px solid #071E22;
     padding: 9px;
     padding: 15px 10px 15px 10px;
-    box-shadow: 3px 5px 3px 3px #0000ff;
+    box-shadow: 3px 5px 3px 3px #0000FF;
 }   
 
 .imagem{
     width: 1000px;
     margin: auto;
-    border: 1px solid #071e22;
-    box-shadow: 10px 9px 7px #0000ff;
+    border: 1px solid #071E22;
+    box-shadow: 10px 9px 7px #0000FF;
 }
 
 .video{
@@ -42,7 +47,7 @@ main{
 }
 
 .list{
-    color: #0000ff;
+    color: #0000FF;
     margin: 15px;
     padding: 15px;
 }
@@ -62,7 +67,7 @@ main{
 .menu{
     width: 100%;
     height: 70px;
-    background-color: #071e22;
+    background-color: #071E22;
 }
 
 .menu ul{
@@ -80,7 +85,7 @@ main{
     display: block;
     text-decoration: none;
     text-align: center;
-    background-color: #071e22;
+    background-color: #071E22;
 }
 
 .menu ul ul{
@@ -93,7 +98,7 @@ main{
 }
 
 .menu a:hover{
-    background-color: #21e7ee;
+    background-color: #21E7EE;
     color: #000000;
 }
 
@@ -103,14 +108,14 @@ main{
 }
 
 .menu ul ul li a{
-    background-color: #a8dae5;
-    color: #0000ff;
+    background-color: #A8DAE5;
+    color: #0000FF;
 }
 
 label[for="bt_menu"]{
     padding: 5px;
-    background-color: #071e22;
-    color: #ffffff;
+    background-color: #071E22;
+    color: #FFFFFF;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
@@ -161,7 +166,7 @@ label[for="bt_menu"]{
 
 /*========================================================================================================*/
 p {
-    color: #071e22;
+    color: #071E22;
     font-weight: bold;
     color: var(--cor6);
     text-align: justify;
@@ -173,22 +178,22 @@ p {
 }
 
 h1 {
-    color: #0000ff;
+    color: #0000FF;
     text-align: center;
 }
 
 h2 {
-    color: #ffffff;
+    color: #FFFFFF;
     padding-bottom: 25px;
 }
 
 h3{
-    color: #ffffff;
+    color: #FFFFFF;
     padding-bottom: 25px;
 }
 
 a{
-    color: #ffffff;
+    color: #FFFFFF;
 }
 
 

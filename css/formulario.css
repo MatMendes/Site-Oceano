@@ -11,15 +11,16 @@
 }
 
 fieldset{
-    border: 0;
+    margin: 5px;
+    border: 2px solid #FFFFFF;
 }
 
 body form{
-    border: 3px solid #071e22;
-    background-color: #a8dae5;
+    border: 3px solid #071E22;
+    background-color: #A8DAE5;
     font-family: sans-serif;
     font-size: 1em;
-    color:#0000ff;
+    color:#0000FF;
     margin-left: 2%;
     margin-top: 2%;
     justify-content: center;
@@ -28,7 +29,7 @@ body form{
 input, select, textarea, button{
     font-family: sans-serif;
     font-size: 1em;
-    color: #21e7ee;
+    color: #21E7EE;
     border-radius: 5px;
 }
 
@@ -46,7 +47,7 @@ input, select, textarea, button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: #0000ff;
+    color: #0000FF;
     display: block;
 }
 
@@ -57,7 +58,7 @@ fieldset.grupo .campo{
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
     padding: 0.2;
-    border: 1px solid #a8dae5;
+    border: 1px solid #A8DAE5;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.0);
     display: block;
 }
@@ -67,7 +68,7 @@ fieldset.grupo .campo{
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus{
-    background: #21e7ee;
+    background: #21E7EE;
 }
 
 .botao{
@@ -75,7 +76,7 @@ fieldset.grupo .campo{
     background: #000000;
     border: 0;
     margin-bottom: 1em;
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.0);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -87,7 +88,7 @@ fieldset.grupo .campo{
 }
 
 .botao:hover{
-    background: #0000ff;
+    background: #0000FF;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.0);
     text-shadow: none;
 }
